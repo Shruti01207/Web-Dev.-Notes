@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>HTML FORMS</h2>
+    <form action="backend.php">
+        <div>
+            <label for="name">NAME</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="mail">E-MAIL</label>
+            <input type="email" name="myEmailId" id="mail">
+        </div>
+        <br>
+        <div>
+            <label for="password">PASSWORD</label>
+            <input type="password" name="myPassword" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="num"> NUMBER</label>
+            <input type="number" name="myNumber"
+                id="num"><!--It accept numbers & e(to represent 10 raised to the power number)-->
+        </div>
+        <br>
+        <div>
+            <label for="date"> DATE </label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="mygender">SELACT GENDER</label>
+            <br>
+            <input type="radio" name="Gender" id="mygender"> Male
+            <input type="radio" name="Gender" id="mygender">Female
+            <input type="radio" name="Gender" id="mygender"> Other
+            <!--Name key shouls be same to click any 1 button from the avail. 3 options -->
+        </div>
+        <br>
+        <div>
+            Why do you want to join us?
+            <br>
+            <textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="T&C_accept" id="T&C"><label for="T&C">Terms & Conditions</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label>
+            <select name="myCountry" id="country">
+                <option value="India" selected>India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
