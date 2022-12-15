@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        summary {
+            color: red;
+        }
+
+        details {
+            color: rgb(0, 0, 14);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(149, 81, 81);
+        }
+
+        #selector1 {
+            color: red;
+        }
+
+        #selector2 {
+            color: rgb(6, 199, 157);
+        }
+
+        #selector3 {
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Simple Selectors</h1>
+    <div>
+        <ol>
+            <li>
+                <details>
+                    <summary id="selector1">What is Element Selector &#63;</summary>
+                    <ul>
+                        <li>Element selector select the html element on the basis of the name.</li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary id="selector2">What is CSS id selector?</summary>
+                    <ul>
+                        <li>Id selector uses the id attribute of an html element to specific element.</li>
+                        <li> Id is unique,so id selector is used to select one unique element</li>
+                        <li>To select an element with an specific id ,write a hash character(&num;)followed by the id of
+                            the element</li>
+                        <li>An id name cannot start with a number!</li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details class="bgcolor">
+                    <summary id="selector3">
+                        What is CSS Class Selector?
+                    </summary>
+                    <ul>
+                        <li> CSS class selector selects HTML Element with specific class attribute</li>
+                        <li>To select element with specific class start with period(.)& followed by class name </li>
+                    </ul>
+                </details>
+
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
