@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS INTRODUCTION</title>
+    <link rel="stylesheet" href="CSSIntro.css">
+    <style>
+        h2{
+            color:purple;
+            background-color:rgb(251, 219, 235) !important;
+        }
+    </style>
+</head>
+<body>
+    <h1  style="color: black;">Ways to include CSS in Markup</h1>
+    <div>
+     <ul type="square">
+        <li><h2>Inline CSS(Not a Good Practise)</h2></li>
+        <li><h2>Internal CSS</h2></li>
+        <li><h2>External CSS(Most Preferred)</h2></li>
+     </ul>
+      <details>
+        <summary>Note &#x0003A;</summary> <!--Sematic tag (summary)-->
+     <p>Above unordered list is styled using Internal CSS & this note is styled using External CSS, but preferrence is given to that CSS code which is written first. 
+    But if you want to give more preference to a particular type, you can add(!important) to it.Then it cannot be overriden by any method
+     </p>
+     <!-- &#x0003A;=HTML Entity -->
+    </details>
+    </div>
+</body>
+</html>
