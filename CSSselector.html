@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+      /* Element selector */
+      ol{
+        color:green;
+        background-color:yellow;
+      }
+  #Mainheading{
+    color:red;
+    border: 1px solid black;
+  }
+  /* .mainblock.mainstyling{
+    color: blue;
+    background-color: antiquewhite;
+  } */
+  
+  p{
+    color:red;
+  }
+  div p{
+    color:black;
+  }
+  .bgcolor.textcolor{
+    border: 2px solid salmon;
+  }
+    </style>
+   
+   <!-- 1) Always element selector are given more preference than class Selector
+   2)Id selector are given more preference over class Selector  -->
+</head>
+
+<body>
+<div class="mainblock mainstyling">
+<h1 id="Mainheading">Basic Types of CSS Selector</h1>
+<ol type="A">
+    <li>CSS Element Selector</li>
+    <li>CSS Id Selector</li>
+    <li>CSS Class Selector</li>
+    <li>CSS Grouping Selector</li>
+</ol>
+</div> 
+<p class="bgcolor textcolor">This is the paragraph to illustrate CSS selector</p>
+<p class="bgcolor textcolor">This is the another paragraph to illustrate CSS selector</p>
+<div>
+<p class="bgcolor textcolor">This is the another paragraph inside &lt;div&gt; to illustrate CSS selector</p>
+</div>
+
+
+</body>
+</html>

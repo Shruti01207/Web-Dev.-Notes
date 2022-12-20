@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+     <style>
+      #firstheading{
+        background-color: blanchedalmond;
+        width:500px;
+        height:100px;
+        border-width:10px;
+        border-color: red;
+        border-style: dotted;
+        border-radius: 15px;
+      }
+      p.border1{
+      background-color: blue;
+      width:500px;
+      height:100px;
+      border:9px rgb(27, 255, 205) solid;
+      border-radius: 8px;
+      }
+      p.border2{
+        background-color: rgb(114, 108, 119);
+        width:500px;
+      height:100px;
+      border-top:5px red dotted ;
+      border-left:5px red solid  ;
+      border-right:5px red dashed ;
+      border-bottom: 5px rgb(130, 103, 103) solid;
+      border-top-left-radius: 11px;
+      border-bottom-right-radius: 11px;
+      border-top-right-radius: 5px;
+    border-bottom-left-radius: 30px;
+      }
+      .bgimg{
+       background-color: red;
+       width:700px;
+       height:300px;
+       border:10px black solid;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOyCtPSy5vZ6NNKe6nmW5aEAWDfv2R3bV72g&usqp=CAU);
+      background-repeat: no-repeat;   /*  repeat-x & repeat-y will make it repaeat on x & y-axis */
+       /* background-position: 200px 50px; */
+       /* background-position: center center; */
+       /* background-position: top top; */
+       /* background-position: center left; */
+       background-position: bottom right;
+      }
+     </style>
+</head>
+<body>
+    <h2 id="firstheading">This is the tutorial of Border CSS property!</h2>
+   <div>
+  <p class="border1">This is the paragraph(Blockline element) illustrating Border</p>
+  <p class="border2">Para having differently styled border</p>
+</div>
+<div>
+  <h1 >How to add background-img?</h1>
+  <p class="bgimg">Added Bg Image</p>
+</div>
+</body>
+</html>
